@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Введение в JavaScript</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="material/styles.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <style>
+      .shower {
+        --slide-ratio: calc(16 / 9);
+      }
+    </style>
+  </head>
+  <body class="shower list">
+    <header class="caption">
+      <h1>Введение в JavaScript</h1>
+    </header>
+
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="">План на сегодня</h2>
+        <ul>
+          <li>История JavaScript</li>
+          <li>Основная терминалогия</li>
+          <li>Попробуем написать код</li>
+          <li>Значения и типы</li>
+          <li>Конструкции языка</li>
+        </ul>
+      </div>
+    </section>
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="">История</h2>
+        <ul>
+          <li class="next">Netscape</li>
+          <li class="next">Mocha</li>
+          <li class="next">LiveScript</li>
+          <li class="next">JavaScript</li>
+          <li class="next">JScript (Internet Explorer)</li>
+          <li class="next">SpiderMonkey</li>
+        </ul>
+      </div>
+    </section>
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="">ECMAScript</h2>
+        <ul>
+          <li class="next">ECMA</li>
+          <li class="next">ECMAScript</li>
+          <li class="next">V8</li>
+          <li class="next">Node.js</li>
+        </ul>
+      </div>
+    </section>
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="">Основная терминалогия</h2>
+        <ul>
+          <li>Интерпритируемый</li>
+          <li>Исходный код</li>
+          <li>Литерал</li>
+          <li>
+            <a
+              href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Expressions_and_Operators"
+              >Операторы</a
+            >
+          </li>
+          <li>Выражения</li>
+          <li>Выполнение программы</li>
+        </ul>
+      </div>
+    </section>
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="">Литерал</h2>
+        <p>
+          Запись в исходном коде компьютерной программы, представляющая собой
+          фиксированное значение. <br />
+          Литералами также называют представление значения некоторого типа
+          данных.
+        </p>
+      </div>
+    </section>
+
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="">Ввод/Вывод данных</h2>
+        <ul>
+          <li>prompt("Сколько тебе лет?");</li>
+          <li>alert("Привет мир!");</li>
+          <li>console.log("Привет мир!")</li>
+          <li>confirm("Завтракал сегодня?");</li>
+          <li>
+            <a href="https://learn.javascript.ru/alert-prompt-confirm"
+              >почитать</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="">Операторы</h2>
+        <ul>
+          <li>Присваивание: =</li>
+          <li>
+            Математические: + (сложение), - (вычитание), * (умножение) и /
+            (деление)
+          </li>
+          <li>Составное присваивание: +=, -=, *= и /=</li>
+          <li>Инкремент/Декремент: ++ (инкремент), -- (декремент)</li>
+          <li>Доступ к свойству объекта: .</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="">Операторы</h2>
+        <ul>
+          <li>
+            Равенство: == (нестрогое), === (строгое), != (нестрогое
+            неравенство), !== (строгое неравенство)
+          </li>
+          <li>
+            Сравнение: < (меньше чем), > (больше чем), <= (меньше или нестрого
+            равно), >= (больше или нестрого равно)
+          </li>
+          <li>Логические: && (и), || (или), как в a || b</li>
+          <li>
+            <a
+              href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Expressions_and_Operators"
+              >подробнее</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="">Типы данных</h2>
+        <pre>            
+          <code>"Я - строка";</code>
+          <code>'Я - тоже строка';</code>
+          <code>&nbsp;</code>
+          <code>42;</code>
+          <code>&nbsp;</code>
+          <code>true;</code>
+          <code>false;</code>
+        </pre>
+      </div>
+    </section>
+
+    <section class="slide purple">
+      <h2 class="white">Динамическая типизация</h2>
+      <img class="cover" src="public/images/types.png" alt="html code" />
+    </section>
+
+    <section class="slide purple">
+      <h2 class="white">Комментарии в коде</h2>
+      <img class="cover" src="public/images/comment.png" alt="html code" />
+    </section>
+
+    <section class="slide purple">
+      <h2 class="white">Переменные</h2>
+      <img class="cover" src="public/images/variable.png" alt="html code" />
+    </section>
+
+    <section class="slide purple">
+      <h2 class="white">Константы</h2>
+      <img class="cover" src="public/images/const.png" alt="html code" />
+    </section>
+
+    <section class="slide purple">
+      <h2 class="white">Константы в ES6</h2>
+      <img class="cover" src="public/images/new-const.png" alt="html code" />
+    </section>
+
+    <section class="slide purple">
+      <h2 class="white">Блоки</h2>
+      <img class="cover" src="public/images/block.png" alt="html code" />
+    </section>
+
+    <section class="slide purple">
+      <h2 class="white">Блочная область видимости</h2>
+      <img class="cover" src="public/images/block_let.png" alt="html code" />
+    </section>
+
+    <section class="slide purple">
+      <h2 class="white">Условные конструкции</h2>
+      <img class="cover" src="public/images/if.png" alt="html code" />
+    </section>
+    <section class="slide purple">
+      <h2 class="white">Циклы</h2>
+      <img class="cover" src="public/images/while.png" alt="html code" />
+    </section>
+    <section class="slide purple">
+      <h2 class="white">Выход из цикла</h2>
+      <img class="cover" src="public/images/break.png" alt="html code" />
+    </section>
+    <section class="slide purple">
+      <h2 class="white">Цикл For</h2>
+      <img class="cover" src="public/images/for.png" alt="html code" />
+    </section>
+
+    <section class="slide purple">
+      <div class="content">
+        <h2>Функция</h2>
+        <p>
+          это именованная секция кода, которая может быть «вызвана» по имени, и
+          код внутри нее будет при этом запускаться при каждом вызове
+        </p>
+      </div>
+    </section>
+    <section class="slide purple">
+      <h2 class="white">Функции</h2>
+      <img class="cover" src="public/images/function.png" alt="html code" />
+    </section>
+
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="shout">Область видимости</h2>
+      </div>
+    </section>
+
+    <section class="slide purple">
+      <h2 class="white">Область видимости</h2>
+      <img
+        class="cover"
+        src="public/images/variable_function.png"
+        alt="html code"
+      />
+    </section>
+    <section class="slide purple">
+      <h2 class="white">Область видимости</h2>
+      <img
+        class="cover"
+        src="public/images/variable_function-2.png"
+        alt="html code"
+      />
+    </section>
+
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="">О чём мы сегодня говорили</h2>
+        <ul>
+          <li>История JavaScript</li>
+          <li>Основная терминалогия</li>
+          <li>Ввод/Вывод данных</li>
+          <li>Значения и типы</li>
+          <li>Операторы</li>
+          <li>Условные конструкции</li>
+          <li>Циклы</li>
+          <li>Функции</li>
+          <li>Область видимости</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="shout">Практика</h2>
+      </div>
+    </section>
+
+    <div class="progress"></div>
+
+    <script src="dist/shower.js"></script>
+    <!-- Copyright © 2022 Yours Truly, Famous Inc. -->
+  </body>
+</html>
